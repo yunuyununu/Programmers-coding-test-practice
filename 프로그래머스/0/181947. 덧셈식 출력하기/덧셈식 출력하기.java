@@ -8,5 +8,6 @@ public class Solution {
         int ab = a+b;
 
         System.out.println(a +" + "+ b +" = "+ab);
+        //("%d + %d = %d",a,b,a+b);
     }
 }
