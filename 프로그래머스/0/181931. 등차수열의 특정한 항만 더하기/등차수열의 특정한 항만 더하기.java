@@ -1,12 +1,11 @@
 class Solution {
     public int solution(int a, int d, boolean[] included) {
-        int answer = 0;
-        int num = a;
+        int answer =0;
         for(int i=0;i<included.length;i++){
             if(included[i]==true){
-                answer += num;
+                answer += a;
             }
-            num += d;
+            a += d;
         }
         return answer;
     }
