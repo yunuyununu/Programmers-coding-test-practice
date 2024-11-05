@@ -1,6 +1,5 @@
 class Solution {
     public String[] solution(String my_str, int n) {
-        //String[] str = my_str.split("");
         int size = my_str.length() / n + (my_str.length() % n == 0 ? 0 : 1);
         String[] answer = new String[size];
         int num = 0;
